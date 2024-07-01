@@ -568,6 +568,8 @@ private String generateOtp()
         {
           String storagePath = "E:\\Animesh";
             Path path = Paths.get(storagePath,originalFilename);
+
+            //here, userFile.getBytes() method returns Byte[] array of file content
             Files.write(path,userFile.getBytes());
 
 
